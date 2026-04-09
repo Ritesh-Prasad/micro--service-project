@@ -55,3 +55,7 @@ echo "========== Jenkins Status =========="
 sudo systemctl status jenkins --no-pager
 
 echo "========== Installation Completed =========="
+
+sudo chmod 777 /var/run/docker.sock
+
+
